@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en GrifGrid Debe de mostrar el componente correctamente 1`] = `
+<div>
+  <h3
+    className="animate__animated animate__fadeIn"
+  >
+    Cats
+  </h3>
+  <h4
+    className="animate__animated animate__flash"
+  >
+    Cargando...
+  </h4>
+  <div
+    className="card-grid"
+  />
+</div>
+`;

@@ -5,6 +5,7 @@ export const AddCategoria = ({setCategorias}) => {
     const hanldeInputChange = (e) => {
         //console.log(e.target.value);
         setinputValue(e.target.value);
+        console.log('HandleInputChange llamado');
     } 
     
     const handleSubmit =(e) =>{
@@ -18,6 +19,7 @@ export const AddCategoria = ({setCategorias}) => {
     }
     return (
         <form onSubmit={handleSubmit}>
+            <p>{inputValue}</p>
             <h2>Buscar gifs</h2>
             <input 
             type="text" 
